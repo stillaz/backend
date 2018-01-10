@@ -28,10 +28,10 @@ public class User extends ParentEntity {
 	@Column(name = "second_surname", length = 255)
 	private String secondSurname;
 
-	@Column(name = "phone", nullable = false, length = 255)
+	@Column(name = "phone", nullable = false, length = 30)
 	private String phone;
 
-	@Column(name = "address", nullable = false, length = 255)
+	@Column(name = "address", nullable = false, length = 150)
 	private String address;
 
 	public String getFirstName() {
